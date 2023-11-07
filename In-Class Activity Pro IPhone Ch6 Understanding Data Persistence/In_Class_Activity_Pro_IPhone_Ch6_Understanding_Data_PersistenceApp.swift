@@ -11,7 +11,7 @@ import SwiftUI
 struct In_Class_Activity_Pro_IPhone_Ch6_Understanding_Data_PersistenceApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(coreDM: CoreDataManager())
         }
     }
 }

@@ -11,6 +11,8 @@
 		3F86370C2AF9C22000AD08DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F86370B2AF9C22000AD08DC /* ContentView.swift */; };
 		3F86370E2AF9C22400AD08DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F86370D2AF9C22400AD08DC /* Assets.xcassets */; };
 		3F8637112AF9C22400AD08DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8637102AF9C22400AD08DC /* Preview Assets.xcassets */; };
+		3F874F942AF9E17E00130018 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F874F922AF9E17E00130018 /* DataModel.xcdatamodeld */; };
+		3F874F962AF9E51100130018 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F874F952AF9E51100130018 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3F86370B2AF9C22000AD08DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F86370D2AF9C22400AD08DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F8637102AF9C22400AD08DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F874F932AF9E17E00130018 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		3F874F952AF9E51100130018 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				3F8637092AF9C22000AD08DC /* In_Class_Activity_Pro_IPhone_Ch6_Understanding_Data_PersistenceApp.swift */,
+				3F874F922AF9E17E00130018 /* DataModel.xcdatamodeld */,
+				3F874F952AF9E51100130018 /* CoreDataManager.swift */,
 				3F86370B2AF9C22000AD08DC /* ContentView.swift */,
 				3F86370D2AF9C22400AD08DC /* Assets.xcassets */,
 				3F86370F2AF9C22400AD08DC /* Preview Content */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F874F942AF9E17E00130018 /* DataModel.xcdatamodeld in Sources */,
 				3F86370C2AF9C22000AD08DC /* ContentView.swift in Sources */,
+				3F874F962AF9E51100130018 /* CoreDataManager.swift in Sources */,
 				3F86370A2AF9C22000AD08DC /* In_Class_Activity_Pro_IPhone_Ch6_Understanding_Data_PersistenceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +350,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F874F922AF9E17E00130018 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F874F932AF9E17E00130018 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 3F874F932AF9E17E00130018 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3F8636FE2AF9C22000AD08DC /* Project object */;
 }
